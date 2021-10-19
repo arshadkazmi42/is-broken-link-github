@@ -53,7 +53,10 @@ class LinkChecker:
         status_code = response_parser.get_status_code()
 
         link_status = self.get_link_status(status_code)
-        
+
+        if not status_code:
+            return None
+
         print(f'{link_status} {link} => {status_code}')
 
 
