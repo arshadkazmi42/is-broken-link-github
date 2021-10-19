@@ -22,7 +22,7 @@ class Sleep:
         if not seconds:
             seconds = self.wait_seconds
 
-        print(f'\nRandom wait. Sleeping for {seconds} seconds.\n')
+        print(f'\nSleeping for {seconds} seconds.\n')
         time.sleep(seconds)
         
         return True
