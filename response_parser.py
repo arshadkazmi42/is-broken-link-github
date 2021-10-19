@@ -1,4 +1,4 @@
-class GithubResponseParser:
+class ResponseParser:
 
     def __init__(self, response):
 
