@@ -1,6 +1,8 @@
 # is-broken-link-github
 
-Takes file with list of urls input and check the status code 404 and prints if broken or ok
+- Takes file with list of urls input and check the status code 404 and prints if broken or ok.
+- Mainly for Github Links.
+- Handles all rate limiting of Github
 
 
 ## Setup
@@ -18,7 +20,7 @@ python process.py {FILE_PATH} {GITHUB_TOKEN (optional)}
 ## Example
 
 ```
-python process.py bugcrowd-subdomains.txt
+python process.py github-links.txt
 ```
 
 ## Local Bash Script
